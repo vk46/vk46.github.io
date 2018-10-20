@@ -1,2 +1,2 @@
 # vinaykumar46.github.io
-Simple portfolio to showcase personal information.
+Personal portfolio to showcase technical and personal information.
