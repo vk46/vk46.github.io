@@ -1,5 +1,5 @@
 # Vinay Kumar 46
-Personal portfolio to showcase technical and personal information, [vk46.github.io](https://vk46.github.io/)
+Personal portfolio to showcase technical and personal information - [vk46.github.io](https://vk46.github.io/)
 
 ## Built With
 
@@ -10,5 +10,4 @@ Personal portfolio to showcase technical and personal information, [vk46.github.
 ## Made With
 
 * Passion
-* Inspiration
 * Love
