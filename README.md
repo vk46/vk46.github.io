@@ -1,4 +1,4 @@
-# Vinay Kumar 46
+## Vinay Kumar 46
 Portfolio to showcase professional and personal information - [vk46.github.io](https://vk46.github.io/)
 
 ## Built With
