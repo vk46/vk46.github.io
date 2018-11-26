@@ -14,4 +14,3 @@ Portfolio to showcase professional and personal information - [vk46.github.io](h
 ## Made With
 
 * Passion
-* Love
