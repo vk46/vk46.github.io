@@ -9,7 +9,7 @@ Portfolio to showcase professional and personal information - [vk46.github.io](h
 
 ## Thanks To
 
-* [Vijaya Sekhar](https://www.mvijayasekhar.me/) - Who inspired me to built such a great portfolio.
+* [Vijaya Sekhar](https://www.mvijayasekhar.me/) - Who inspired me to built this portfolio.
 
 ## Made With
 
