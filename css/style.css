@@ -131,7 +131,11 @@ nav.w3-navbar {
     color: #fff;
     outline: 2px solid #0274b3;
 }
-
+.w3-socials a span.fa.fa-github:hover {
+    background: #333;
+    color: #fff;
+    outline: 2px solid #333;
+}
 .w3-socials ul li {
     display: inline-flex;
 }
