@@ -507,7 +507,7 @@ p.agileits_w3ls_copyright a:hover {
     font-weight: 100;
 		text-transform: capitalize;
 }
-.w3l_footer h3 .footer_passion{
+.w3l_footer h3.footer_passion{
     float: right;
 }
 .w3l_footer .connect-social {
@@ -1092,7 +1092,8 @@ img.zoom-img:hover {
 	.w3l_footer h3 {
 		font-size: 23px;
 	}
-	.w3l_footer h3 .footer_passion {
+	.w3l_footer h3.footer_passion {
+		float: none !important;
 		text-align: right !important;
 	}
 	li.connect {
@@ -1171,6 +1172,10 @@ img.zoom-img:hover {
 	.w3l_footer h3 {
 		font-size: 21px;
 	}
+	.w3l_footer h3.footer_passion {
+		float: none !important;
+		text-align: right !important;
+	}
 	h3.text-center {
 		font-size: 35px;
 	}
@@ -1233,15 +1238,13 @@ img.zoom-img:hover {
 	.exp_right {
 		padding: 0 3em;
 	}
-	.footer_passion {
-		float: center !important;
-	}
 	.w3l_footer h3 ,.w3l_footer .connect-social{
 		float: none;
 		text-align: center;
 		margin-bottom: 1em;
 	}
-	.w3l_footer h3 ,.w3l_footer .connect-social .footer_passion {
+	.w3l_footer h3.footer_passion {
+		float: none !important;
 		text-align: center !important;
 	}
 	p.agileits_w3ls_copyright {
@@ -1392,6 +1395,10 @@ img.zoom-img:hover {
 	}
 	.w3l_footer h3 {
 		font-size: 19px;
+	}
+	.w3l_footer h3.footer_passion {
+		float: none !important;
+		text-align: center !important;
 	}
 	li.connect {
 		font-size: 17px;
