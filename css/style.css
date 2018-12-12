@@ -1229,6 +1229,9 @@ img.zoom-img:hover {
 	.exp_right {
 		padding: 0 3em;
 	}
+	.footer_passion {
+		float: center !important;
+	}
 	.w3l_footer h3 ,.w3l_footer .connect-social{
 		float: none;
 		text-align: center;
