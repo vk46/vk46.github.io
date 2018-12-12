@@ -500,7 +500,7 @@ p.agileits_w3ls_copyright a:hover {
     transform: rotatez(360deg);
 }
 .footer_passion {
-	float: right !important;
+	float: right;
 }
 .w3l_footer h3 {
     float: left;
