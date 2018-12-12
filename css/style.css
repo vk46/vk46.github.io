@@ -1091,6 +1091,9 @@ img.zoom-img:hover {
 	.w3l_footer h3 {
 		font-size: 23px;
 	}
+	.w3l_footer h3 .footer_passion {
+		text-align: right !important;
+	}
 	li.connect {
 		font-size: 20px;
 	}
