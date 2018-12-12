@@ -499,7 +499,9 @@ p.agileits_w3ls_copyright a:hover {
     -ms-transform: rotatez(360deg);
     transform: rotatez(360deg);
 }
-
+.footer_passion {
+	float: right !important;
+}
 .w3l_footer h3 {
     float: left;
     font-size: 25px;
@@ -1374,6 +1376,9 @@ img.zoom-img:hover {
 	p.agileits_w3ls_copyright {
 		letter-spacing: 1px;
 		line-height: 28px;
+	}
+	.footer_passion {
+		float: center !important;
 	}
 	.w3l_footer h3 {
 		font-size: 19px;
