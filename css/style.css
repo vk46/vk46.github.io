@@ -176,7 +176,6 @@ nav.w3-navbar {
     margin: 20px auto 40px;
     width: 80%;
     letter-spacing: 1px;
-    text-transform: capitalize;
 }
 .agileinfo-news-button a {
     padding: 8px 20px;
@@ -580,7 +579,6 @@ ul.address li ul.agileits-address-text li a {
     color: #212121;
     letter-spacing: .5px;
     font-size: 14px;
-    text-transform: capitalize;
     padding-top: 1em;
     padding-bottom: 1em;
     border-top: 1px dashed #646464;
@@ -635,7 +633,6 @@ ul.address li ul.agileits-address-text li a {
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 0.5px;
-    text-transform: capitalize;
     color: #ccc;
     padding: 0 0em;
 }
