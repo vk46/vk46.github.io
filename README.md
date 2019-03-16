@@ -1,5 +1,5 @@
 ### VK46
-Portfolio to showcase professional and personal information - [vk46.tech](http://vk46.tech/)
+Portfolio to showcase professional and personal information - [vk46.tech](https://vk46.github.io/)
 
 ### Built With
 
