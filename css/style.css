@@ -891,10 +891,13 @@ img.zoom-img:hover {
 	text-align: center;
 }
 .grid1,.grid2,.grid3 {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 .grid4,.grid5,.grid6 {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
+}
+.grid7,.grid8,.grid9 {
+    margin-bottom: 3em;
 }
 .hobbies-grid1 span.fa {
     font-size: 30px;
@@ -942,6 +945,18 @@ img.zoom-img:hover {
 .grid9 span.fa {
 	color: #1B5E20;
 	border:2px solid #1B5E20;
+}
+.grid10 span.fa {
+	color: #C71585;
+	border:2px solid #C71585;
+}
+.grid11 span.fa {
+	color: #483D8B;
+	border:2px solid #483D8B;
+}
+.grid12 span.fa {
+	color: #FF6347;
+	border:2px solid #FF6347;
 }
 /*-- //skills --*/
 
@@ -1118,7 +1133,7 @@ img.zoom-img:hover {
 	.bar-grids:nth-child(1){
 		margin-bottom: 50px;
 	}
-	.grid1, .grid2, .grid3,.grid4, .grid5, .grid6, .grid7, .grid8, .grid9 {
+	.grid1, .grid2, .grid3,.grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
 		width: 33.33%;
 		float: left;
 	}
@@ -1475,7 +1490,7 @@ img.zoom-img:hover {
 	.bar-grids {
 		padding: 0 1em;
 	}
-	.grid1, .grid2, .grid3,.grid4, .grid5, .grid6, .grid7, .grid8, .grid9 {
+	.grid1, .grid2, .grid3,.grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11, .grid12 {
 		padding: 0;
 	}
 	.gallery-grids {
