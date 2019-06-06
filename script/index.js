@@ -36,5 +36,6 @@ function submitFormData() {
   }else {
     alert("Thank you for contact me, will get back to you in sometime!");
     console.log(myObject);
+    window.location.reload();
   }
 }
