@@ -744,7 +744,7 @@ ul.address li ul.agileits-address-text li a {
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: 400;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .exp_grid1 h5 {
     font-weight: 800;
