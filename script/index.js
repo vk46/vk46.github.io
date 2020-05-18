@@ -17,6 +17,7 @@ jQuery(document).ready(function($) {
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
   });
+  $(".footer_passion").html("Made with Passion | "+new Date().getFullYear());
 });
 //submit contact form data
 function submitFormData() {
@@ -33,7 +34,6 @@ function submitFormData() {
     alert("Please enter phone");
   }else {
     alert("Thank you for contact me, will get back to you in sometime!");
-    console.log(myObject);
     window.location.reload();
   }
 }
