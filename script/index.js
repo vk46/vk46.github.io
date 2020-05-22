@@ -33,8 +33,10 @@ function submitFormData() {
     alert("Please enter email");
   }else if (myObject.phone == "") {
     alert("Please enter phone");
+  }else if (myObject.message == "") {
+    alert("Please enter message");
   }else {
-    alert("Thank you for contact me, will get back to you in sometime!");
+    alert("Thank you for contacting me, will get back to you in sometime!");
     window.location.reload();
   }
 }
