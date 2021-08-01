@@ -18,7 +18,12 @@ jQuery(document).ready(function($) {
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
   });
-  $(".footer_passion").html("Made with Passion | "+new Date().getFullYear());
+
+  const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
+  $(".footer_passion").html("Made with Passion | "+monthNames[new Date().getMonth()]+" - "+new Date().getFullYear());
 });
 //submit contact form data
 function submitFormData() {
