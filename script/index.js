@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     $("#gauge1").gauge(70, { color: "#ff4f81", unit: " %", type: "halfcircle" });
-    $("#gauge2").gauge(50, { color: "#4d90fe", unit: " %", type: "halfcircle" });
-    $("#gauge3").gauge(30, { color: "#2dde98", unit: " %", type: "halfcircle" });
+    $("#gauge2").gauge(20, { color: "#4d90fe", unit: " %", type: "halfcircle" });
+    $("#gauge3").gauge(10, { color: "#2dde98", unit: " %", type: "halfcircle" });
     (function() {
         $.fatNav();
     }());
@@ -24,6 +24,7 @@ jQuery(document).ready(function($) {
     ];
 
     $(".footer_passion").html("Made with Passion | " + monthNames[new Date().getMonth()] + " - " + new Date().getFullYear());
+    $(".total_experience").html(new Date().getFullYear()-(2017));
 });
 //submit contact form data
 function submitFormData() {

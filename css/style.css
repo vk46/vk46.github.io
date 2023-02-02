@@ -68,7 +68,7 @@ nav.w3-navbar {
     padding: .5em 0;
 }
 .logo a {
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 400;
     color: #ff6c5f;
 }
@@ -90,10 +90,10 @@ nav.w3-navbar {
     font-size: 15px;
     outline-offset: 2px;
     outline: 2px solid #353535;
-    width: 30px;
-    height: 30px;
+    width: 27px;
+    height: 27px;
     text-align: center;
-    line-height: 30px;
+    line-height: 27px;
 	margin: 0 10px;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -163,7 +163,7 @@ nav.w3-navbar {
 	text-align: center;
 }
 .w3l-info h1,.w3l-info h2,.w3l-info h3{
-    font-size: 3em;
+    font-size: 30px;
     color: #fff;
     text-transform: uppercase;
 	line-height:1.4em;
@@ -501,7 +501,7 @@ p.agileits_w3ls_copyright a:hover {
 
 .w3l_footer h3 {
     float: left;
-    font-size: 25px;
+    font-size: 21px;
     color: #eee;
     font-weight: 100;
 		text-transform: capitalize;
@@ -521,7 +521,7 @@ li.connect {
 
 /*-- about --*/
 h3.text-center {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 1.5em;
     color: #000;
     text-transform: capitalize;
@@ -860,7 +860,7 @@ img.zoom-img:hover {
     color: #ecb731;
 }
 .progress {
-    height: 20px;
+    height: 12px;
     margin-bottom: 2.2em;
     background-color: rgba(0, 0, 0, 0.1);
 	-webkit-border-radius: 0;
@@ -1025,7 +1025,7 @@ img.zoom-img:hover {
 		padding: 4em 0;
 	}
 	.logo a {
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.about_left {
 		padding: 4em 0em 0 3em;
@@ -1034,7 +1034,7 @@ img.zoom-img:hover {
 		width: 30%;
 	}
 	h3.text-center {
-		font-size: 38px;
+		font-size: 35px;
 	}
 	.w3-services-right-grid h3 {
 		font-size: 16px;
@@ -1058,7 +1058,7 @@ img.zoom-img:hover {
 		line-height: 65px;
 	}
 	.progress {
-		height: 15px;
+		height: 12px;
 	}
 	.exp_right p {
 		font-size: 14px;
@@ -1089,9 +1089,9 @@ img.zoom-img:hover {
 	}
 	.w3-socials a span.fa {
 		font-size: 13px;
-		width: 28px;
-		height: 28px;
-		line-height: 28px;
+		width: 27px;
+		height: 27px;
+		line-height: 27px;
 		margin: 0 6px;
 	}
 	.w3-socials {
@@ -1101,7 +1101,7 @@ img.zoom-img:hover {
 		top: 11px;
 	}
 	.w3l_footer h3 {
-		font-size: 23px;
+		font-size: 21px;
 	}
 	.w3l_footer h3.footer_passion {
 		float: none !important;
