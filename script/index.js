@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
     ];
 
     $(".footer_passion").html("Made with Passion | " + monthNames[new Date().getMonth()] + " - " + new Date().getFullYear());
-    $(".total_experience").html(new Date().getFullYear()-(2017));
+    $(".total_experience").html(new Date().getFullYear()-(2016));
 });
 //submit contact form data
 function submitFormData() {
