@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
     (function() {
         $.fatNav();
     }());
-    $(window).load(function() {
+    $(window).on('load', function() {
         $('.flexslider').flexslider({
             animation: "slide",
             start: function(slider) {
