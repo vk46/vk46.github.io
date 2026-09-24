@@ -1,502 +1,364 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<!-- Head -->
-
 <head>
-    <title>Vinay Kumar</title>
-    <link rel="icon" type="image/png" href="/images/vk.jpg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <!-- menu -->
-    <link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
-    <!-- //menu -->
-    <link href="css/jquery.fatNav.css" rel="stylesheet" type="text/css">
-    <!--FlexSlider-->
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <!--//FlexSlider-->
-    <link rel="stylesheet" href="css/lightbox.css">
-    <!-- For-gallery-CSS -->
-    <!-- custom css theme files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vinay Kumar's portfolio showcasing experience, services, and technical skills." />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Vinay Kumar | Full-Stack Engineer</title>
+    <link rel="icon" type="image/png" href="images/vk.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <!-- //custom css theme files -->
-    <!-- google fonts -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
-    <!-- //google fonts -->
+    <link rel="stylesheet" href="css/style.css?v=modern-simple" />
 </head>
-<!-- Body -->
+<body>
+    <header class="site-header">
+        <div class="container nav-shell">
+            <a href="#home" class="brand" aria-label="Vinay Kumar home">
+                <span>VK</span> Vinay Kumar
+            </a>
 
-<body id="home">
-    <!-- banner -->
-    <nav class="w3-navbar">
-        <div class="container">
-            <div class="nav-top">
-                <!-- Logo -->
-                <div class="logo">
-                    <a href="#home" class="scroll">Vinay Kumar</a>
-                </div>
-                <!-- Logo -->
-                <div class="right">
-                    <div class="w3-socials">
-                        <ul>
-                            <li>
-                                <a href="https://www.linkedin.com/in/imvk46" target="_blank"><span
-										class="fa fa-linkedin"></span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/vk46" target="_blank"><span class="fa fa-github"></span></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a class="header-button" href="#contact">Hire Me</a>
         </div>
-        <!-- end container -->
-    </nav>
-    <div class="w3l-banner">
-        <div class="wthree-dot">
-            <!-- nav -->
-            <div class="w3layouts-nav-right">
-                <div class="fat-nav">
-                    <div class="fat-nav__wrapper">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#about" class="scroll">About Me</a></li>
-                            <li><a href="#services" class="scroll">My Services</a></li>
-                            <li><a href="#skills" class="scroll">My Skills</a></li>
-                            <!-- <li><a href="#gallery"  class="scroll" >My projects</a></li> -->
-                            <li><a href="#stats" class="scroll">Stats</a></li>
-                            <li><a href="#experience" class="scroll">Work Experience</a></li>
-                            <li><a href="#contact" class="scroll">Contact</a></li>
-                        </ul>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Bengaluru, India</p>
+                    <h1>Full-Stack Engineer building polished digital experiences.</h1>
+                    <p class="lead">
+                        I design and build robust web applications with a strong focus on clean architecture,
+                        performance, and user experience. With over <span class="total_experience">8+</span> years in software engineering,
+                        I help teams ship scalable products from idea to production.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#contact">Let’s work together</a>
+                        <a class="btn btn-secondary" href="#experience">My journey</a>
+                        <a class="btn btn-secondary" href="resume.html" download="Vinay-Kumar-Resume.html">Download Resume</a>
+                    </div>
+
+                    <ul class="tech-tags" aria-label="Core technologies">
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>Microservices</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-panel">
+                        <div class="avatar-wrap">
+                            <img src="images/about.jpg" alt="Vinay Kumar" />
+                        </div>
+
+                        <div class="presence-badge">
+                            <span class="dot"></span>
+                            Available for opportunities
+                        </div>
+
+                        <div class="mini-stats">
+                            <div>
+                                <strong class="total_experience">8+</strong>
+                                <span>Years</span>
+                            </div>
+                            <div>
+                                <strong>15+</strong>
+                                <span>Projects</span>
+                            </div>
+                            <div>
+                                <strong>5</strong>
+                                <span>Companies</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- //nav -->
-            <!-- //Header -->
+        </section>
+
+        <section class="section" id="about">
             <div class="container">
-                <div class="flexslider-info">
-                    <section class="slider col-md-12">
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li>
-                                    <div class="w3l-info">
-                                        <h3>I'm <span>Vinay Kumar</span></h3>
-                                        <p>I currently living in Bengaluru, India. I have been working as a Full-Stack Engineer for over <span class='total_experience'></span> Years since graduated (B.Tech) from Jawaharlal Nehru Technological University, Hyderabad in the year 2015.</p>
-                                        <!-- <ul>
-									<li><a href="#" class="w3ls_more" >Hire Me</a></li>
-									<li><a href="#contact" class="scroll w3l_contact">Contact Me</a></li>
-								</ul> -->
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="w3l-info">
-                                        <h3>this is my <span>Portfolio</span></h3>
-                                        <p>This Portfolio includes Professional and Personal information about Myself, Experience, Education, Skills, Projects and Hobbies etc.</p>
-                                        <!-- <ul>
-									<li><a href="#" class="w3ls_more" >Hire Me</a></li>
-									<li><a href="#contact" class="scroll w3l_contact">Contact Me</a></li>
-								</ul> -->
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="w3l-info">
-                                        <h3>I'm a <span>Software Developer</span></h3>
-                                        <p>I'm passionate about Programming, Technology, Sci-Fi Movies, Space Science and Reading Books. I’m also interested in Travel, Motor Rides and Photography.
-                                        </p>
-                                        <!-- <ul>
-									<li><a href="#" class="w3ls_more">Hire Me</a></li>
-									<li><a href="#contact" class="scroll w3l_contact">Contact Me</a></li>
-								</ul> -->
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <div class="clearfix"></div>
+                <div class="section-heading">
+                    <p class="eyebrow accent-dark">About</p>
+                    <h2>Hi, I’m Vinay Kumar</h2>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- //banner -->
-    <!-- About section -->
-    <div class="about" id="about">
-        <div class="container">
-            <h3 class="text-center">About Me</h3>
-            <div class="col-md-5 about_left">
-                <!-- no content -->
-            </div>
-            <div class="col-md-7 about_right">
-                <h3>Hi, I'm Vinay Kumar</h3>
-                <h4>Full-Stack Engineer : <span class='total_experience'></span> Years of coding experience</h4>
-                <p>I have been working as a Full-Stack Engineer for over <span class='total_experience'></span> Years since graduated (B.Tech) from Jawaharlal Nehru Technological University, Hyderabad in the year 2015. And as a freelance developer I've racked up experience of a wide variety
-                    of application development especially in web technologies.
-                </p>
-                <p>I'm passionate about Programming, Technology, Reading Books, Sci-Fi and Space Science. I’m also interested in Travel, Motor Rides and Photography.</p>
-                <p>I have failed too many times to count. And my goal is to become a Professional Full-Stack Engineer and grow to be a <b>Software Architect</b>.</p>
-                <ul>
-                    <li><a href="mailto:vk.hack46@mail.com" class="w3ls_more">Hire Me</a></li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    <!-- //About section -->
-    <!-- /services -->
-    <div class="w3-services" id="services">
-        <div class="container">
-            <div class="w3-services-grids">
-                <h3 class="text-center">My Services</h3>
-                <div class="col-md-12 w3-services-right-grid">
-                    <div class="col-md-4 w3-icon-grid1">
-                        <h3>Freelance Service</h3>
-                        <div class="clearfix"></div>
-                        <p>I always able to contribute my knowledge and experience to the fullest satisfaction of my Clients and partners.</p>
-                    </div>
-                    <div class="col-md-4 w3-icon-grid1">
-                        <h3>API Development</h3>
-                        <div class="clearfix"></div>
-                        <p>Writing well designed, testable, efficient code by using best software development practices. Analyzing user and system requirements, Writing efficient code based on feature specifications.
-                        </p>
-                    </div>
-                    <div class="col-md-4 w3-icon-grid1">
-                        <h3>Web Development</h3>
-                        <div class="clearfix"></div>
-                        <p>Creating website layout / user interfaces by using standard HTML, CSS and JavaScript practices Integrating data from various back-end services and databases.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //services -->
-    <!--skills -->
-    <div class="skills-agileinfo" id="skills">
-        <div class="container">
-            <h3 class="text-center">My skills</h3>
-            <div class="modal-spa">
-                <div class="skills">
-                    <div class="col-md-6 bar-grids bargrids-left">
-                        <h4>Technical Skills</h4>
-                        <p>Proficient or familiar with a vast array of programming languages, concepts and technologies. With hard work and ability to learn quickly I have developed a great understanding of programming language and it's concepts.</p>
-                        <h6>Core Java<span> 90% </span></h6>
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
-                            </div>
-                        </div>
-                        <h6>HTML, CSS<span> 90% </span></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
-                            </div>
-                        </div>
-                        <h6>JavaScript, TypeScript, jQuery<span> 90% </span></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
-                            </div>
-                        </div>
-                        <h6>Bootstrap UI<span> 80% </span></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 80%">
-                            </div>
-                        </div>
-                        <h6>Spring Boot, Spring Security, Microservices<span> 80% </span></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 80%">
-                            </div>
-                        </div>
-                        <h6>Angular<span> 80% </span></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 80%">
-                            </div>
-                        </div>
-                        <h6>MySQL, MongoDB, Oracle DB<span> 70% </span></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 70%">
-                            </div>
-                        </div>
-                        <h6>AWS Cloud, CI/CD, Git <span> 70% </span></h6>
-                        <div class="progress  w3-agile">
-                            <div class="progress-bar progress-bar-striped active" style="width: 70%">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 bar-grids  w3-agile">
-                        <h4>My Hobbies</h4>
-                        <p>Life without a hobby is like food without the salt. It is a hobby which makes living interesting. It is a pursuit outside one’s regular work. A hobby gives one joy and pleasure; one does not get tired of it. It is a pastime, relaxation
-                            and leisure, he is also making best use of his time.</p>
-                        <div class="col-md-4 hobbies-grid1 grid1">
-                            <span class="fa fa-code"></span>
-                            <h5>Coding</h5>
-                        </div>
-                        <div class="col-md-4 hobbies-grid1 grid2">
-                            <span class="fa fa-hourglass"></span>
-                            <h5>Research</h5>
-                        </div>
-                        <div class="col-md-4 hobbies-grid1 grid3">
-                            <span class="fa fa-book"></span>
-                            <h5>Reading</h5>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-md-4 hobbies-grid1 grid4">
-                            <span class="fa fa-plane"></span>
-                            <h5>Travelling</h5>
-                        </div>
-                        <div class="col-md-4 hobbies-grid1 grid5">
-                            <span class="fa fa-headphones"></span>
-                            <h5>Music</h5>
-                        </div>
-                        <div class="col-md-4 hobbies-grid1 grid6">
-                            <span class="fa fa-tint"></span>
-                            <h5>Thinking</h5>
-                        </div>
-                        <div class="clearfix"></div>
-                        <!-- <div class="col-md-4 hobbies-grid1 grid7">
-								<span class="fa fa-camera"></span>
-								<h5>Photography</h5>
-							</div>
-							<div class="col-md-4 hobbies-grid1 grid8">
-								<span class="fa fa-film"></span>
-								<h5>Movies</h5>
-							</div>
-							<div class="col-md-4 hobbies-grid1 grid9">
-								<span class="fa fa-cutlery"></span>
-								<h5>Motor Rides</h5>
-							</div>
-							<div class="clearfix"></div>
-							<div class="col-md-4 hobbies-grid1 grid10">
-								<span class="fa fa-motorcycle"></span>
-								<h5>Bike Ride</h5>
-							</div>
-							<div class="col-md-4 hobbies-grid1 grid11">
-								<span class="fa fa-beer"></span>
-								<h5>Drink Beer</h5>
-							</div>
-							<div class="clearfix"></div> -->
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //skills -->
-    <!--gallery-->
-    <!-- <div class="gallery" id="gallery">
-	<div class="container">
-		<div class="about-head text-center ">
-		<h3 class="text-center">My Projects</h3>
-		</div>
-			<div class="gallery-info">
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p1.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p1.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p2.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p2.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p3.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p3.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p4.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p4.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p5.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p5.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p6.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p6.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p7.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p7.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p8.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p8.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p9.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p9.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p10.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p10.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p11.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p11.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grids">
-					<a href="images/p12.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/p12.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<script src="js/lightbox-plus-jquery.min.js"></script>
-		</div>
-</div> -->
-    <!--//gallery-->
-    <!-- stats -->
-    <div class="stats" id="stats">
-        <div class="container">
-            <h3 class="text-center">Stats</h3>
-            <div class="w3layouts_skills_grids">
-                <div class="col-md-6 w3ls_about_guage">
-                    <canvas id="gauge1" width="200" height="100"></canvas>
-                    <h4>Company Projects</h4>
-                </div>
-                <div class="col-md-6 w3ls_about_guage">
-                    <canvas id="gauge2" width="200" height="100"></canvas>
-                    <h4>Freelance Projects</h4>
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-    </div>
-    <!-- //stats -->
-    <!-- My experience -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <h3 class="text-center">Work Experience</h3>
-            <div class="col-md-5 exp_left">
-                <img src="images/code3.jpeg" alt="" />
-            </div>
-            <div class="col-md-7 exp_right">
-                <h3>My Experience</h3>
-                <p>Java Full-stack Engineer with <span class='total_experience'></span> years of extensive experience in web application development.
-                </p>
-                <div class="exp_grids">
-                    <div class="exp_grid1">
-                        <h4>Senior Software Engineer</h4>
-                        <h5>Apr 2022 – Present</h5>
-                        <p>Working at Ascendion as a Senior Software Engineer in Bangalore.</p>
-                        <span class="fa fa-circle"></span>
-                    </div>
-                    <div class="exp_grid1">
-                        <h4>Senior Full-Stack Engineer</h4>
-                        <h5>July 2020 – Mar 2022</h5>
-                        <p>Worked at Dreammithra Pvt.Ltd as a Senior Full-Stack Engineer in Bangalore.</p>
-                        <span class="fa fa-circle"></span>
-                    </div>
-                    <div class="exp_grid1">
-                        <h4>Senior Software Engineer</h4>
-                        <h5>Feb 2019 – May 2020</h5>
-                        <p>Worked at iTroSys Pvt.Ltd as a Senior Software Engineer in Bangalore.</p>
-                        <span class="fa fa-circle"></span>
-                    </div>
-                    <div class="exp_grid1">
-                        <h4>UI Developer</h4>
-                        <h5>Aug 2018 – Nov 2018</h5>
-                        <p>Worked at TeamLease Services Limited (Client Hussmann) as a UI Developer in Bangalore.</p>
-                        <span class="fa fa-circle"></span>
-                    </div>
-                    <div class="exp_grid1">
-                        <h4>Software Engineer</h4>
-                        <h5>Dec 2016 – Aug 2018</h5>
-                        <p>Worked at Vistara IT Solutions Pvt.Ltd as a Software Engineer in Bangalore.</p>
-                        <span class="fa fa-circle"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <!-- //My experience -->
-    <!-- comments -->
-    <section class="comment-w3l" id="contact">
-        <div class="container">
-            <h3 class="text-center">Contact Me</h3>
-            <!-- <div class="col-lg-6 col-md-6 col-sm-6 comment-agile1" data-aos="flip-left">
-				<form action="#" method="post">
-					<div class="control-group form-group">
-						<div class="controls">
-							<input type="text" class="form-control" id="name" placeholder="Full Name*" required="">
-							<p class="help-block"></p>
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<input type="email" class="form-control" id="email" placeholder="Email Address*"
-								required="">
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<input type="text" class="form-control" id="name1" placeholder="Phone Number*" required="">
-							<p class="help-block"></p>
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<textarea rows="10" cols="100" class="form-control" id="message" placeholder="Message*"
-								required=""></textarea>
-						</div>
-					</div>
-					<button type="button" class="btn btn-primary" onclick="submitFormData();">Send Message</button>
-				</form> 
-			</div> -->
-            <div class="col-lg-12 col-md-12 col-sm-12 comment-agile2 text-center" data-aos="flip-right">
-                <h4>Contact me if you have any questions</h4>
-                <h5><span class="fa fa-map-marker"></span> Bengaluru, India</h5>
-                <h5><span class="fa fa-envelope"></span> <a href="mailto:vk.hack46@gmail.com"> vk.hack46@gmail.com</a>
-                </h5>
-                <h5><span class="fa fa-linkedin"></span><a href="https://www.linkedin.com/in/imvk46" target="_blank"> linkedin/@imvk46</a></h5>
-                <h5><span class="fa fa-github"></span><a href="https://github.com/vk46" target="_blank">
-						github/@vk46</a></h5>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <!-- /comments -->
-    <div class="w3l_footer">
-        <div class="container">
-            <h3>Thanks for visiting my site!</h3>
-            <h3 class="footer_passion">Made with Passion | 2020</h3>
-            <div class="arrow-container animated fadeInDown">
-                <a href="#home" class="arrow-2 scroll">
-                    <i class="fa fa-angle-up"></i>
-                </a>
-                <div class="arrow-1 animated hinge infinite zoomIn"></div>
-            </div>
-        </div>
-    </div>
-    <!--//footer -->
-    <!-- Default-JavaScript-File -->
-    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- //Default-JavaScript-File -->
-    <!-- gauge-meter -->
-    <script src="js/jquery.gauge.js"></script>
-    <!-- //gauge-meter -->
-    <!--menu script-->
-    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/jquery.fatNav.js"></script>
-    <!--Start-slider-script-->
-    <script defer src="js/jquery.flexslider.js"></script>
-    <!--End-slider-script-->
-    <!-- smooth scrolling -->
-    <script src="js/SmoothScroll.min.js"></script>
-    <!-- smooth scrolling -->
-    <script type="text/javascript" src="script/index.js"></script>
-</body>
-<!-- //Body -->
 
+                <div class="about-grid">
+                    <div class="about-photo-card">
+                        <img src="images/code3.jpeg" alt="Developer working on code" />
+                    </div>
+
+                    <div class="about-copy">
+                        <p>
+                            I am a Full-Stack Engineer based in Bengaluru, India. I graduated with a B.Tech from
+                            Jawaharlal Nehru Technological University, Hyderabad, in 2015 and have been building
+                            software professionally since then.
+                        </p>
+                        <p>
+                            My work spans web application development, frontend architecture, backend services, and
+                            cloud-driven product delivery. I enjoy turning complex requirements into clear, scalable,
+                            and maintainable experiences for users and businesses.
+                        </p>
+                        <p>
+                            I’m especially interested in technology, reading, Sci‑Fi, travel, motor rides, and photography.
+                            My long-term goal is to grow as a professional Full-Stack Engineer and eventually move toward
+                            a Software Architect role.
+                        </p>
+
+                        <div class="stat-blocks">
+                            <div class="stat-box">
+                                <strong>8+</strong>
+                                <span>Years of engineering</span>
+                            </div>
+                            <div class="stat-box">
+                                <strong>100%</strong>
+                                <span>Learning mindset</span>
+                            </div>
+                            <div class="stat-box">
+                                <strong>24/7</strong>
+                                <span>Curiosity-driven work</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-soft" id="services">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="eyebrow accent-dark">Services</p>
+                    <h2>What I can help with</h2>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="icon-wrap">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <h3>Full-Stack Development</h3>
+                        <p>End-to-end product development from user interfaces to APIs, data models, and deployment workflows.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="icon-wrap">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <h3>Frontend Engineering</h3>
+                        <p>Responsive, performant interfaces built with modern JavaScript stacks and design-focused UX.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="icon-wrap">
+                            <i class="fa fa-server"></i>
+                        </div>
+                        <h3>Backend Architecture</h3>
+                        <p>Secure business logic, RESTful services, integrations, and scalable application foundations.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="icon-wrap">
+                            <i class="fa fa-rocket"></i>
+                        </div>
+                        <h3>Product Delivery</h3>
+                        <p>Assistance in transforming requirements into production-ready systems with clean engineering practices.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="eyebrow accent-dark">Skills</p>
+                    <h2>Technical strengths and passions</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="glass-panel">
+                        <h3>Core technical skills</h3>
+                        <div class="skill-row">
+                            <div class="skill-labels">
+                                <span>Core Java</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress"><span style="width: 90%"></span></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-labels">
+                                <span>HTML, CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress"><span style="width: 90%"></span></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-labels">
+                                <span>JavaScript, TypeScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress"><span style="width: 90%"></span></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-labels">
+                                <span>Spring Boot &amp; Security</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress"><span style="width: 85%"></span></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-labels">
+                                <span>Angular</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress"><span style="width: 80%"></span></div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-labels">
+                                <span>MySQL, MongoDB, Oracle</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress"><span style="width: 75%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel">
+                        <h3>Hobbies &amp; interests</h3>
+                        <ul class="hobby-list">
+                            <li><i class="fa fa-code"></i> Coding</li>
+                            <li><i class="fa fa-book"></i> Reading</li>
+                            <li><i class="fa fa-plane"></i> Travel</li>
+                            <li><i class="fa fa-headphones"></i> Music</li>
+                            <li><i class="fa fa-search"></i> Research</li>
+                            <li><i class="fa fa-camera"></i> Photography</li>
+                            <li><i class="fa fa-motorcycle"></i> Bike rides</li>
+                            <li><i class="fa fa-rocket"></i> Space science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-soft" id="experience">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="eyebrow accent-dark">Experience</p>
+                    <h2>Career journey</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-card">
+                            <p class="time-range">Apr 2022 – Present</p>
+                            <h3>Senior Software Engineer</h3>
+                            <p class="company">Ascendion, Bengaluru</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-card">
+                            <p class="time-range">Jul 2020 – Mar 2022</p>
+                            <h3>Senior Full-Stack Engineer</h3>
+                            <p class="company">Dreammithra Pvt. Ltd., Bengaluru</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-card">
+                            <p class="time-range">Feb 2019 – May 2020</p>
+                            <h3>Senior Software Engineer</h3>
+                            <p class="company">iTroSys Pvt. Ltd., Bengaluru</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-card">
+                            <p class="time-range">Aug 2018 – Nov 2018</p>
+                            <h3>UI Developer</h3>
+                            <p class="company">TeamLease Services Limited (Client: Hussmann), Bengaluru</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-card">
+                            <p class="time-range">Dec 2016 – Aug 2018</p>
+                            <h3>Software Engineer</h3>
+                            <p class="company">Vistara IT Solutions Pvt. Ltd., Bengaluru</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-wrap">
+                    <div class="contact-panel">
+                        <p class="eyebrow">Let’s connect</p>
+                        <h2>Need a developer who cares about product quality?</h2>
+                        <p>
+                            I enjoy collaborating on meaningful product work, solving technical challenges, and turning
+                            ideas into reliable digital experiences.
+                        </p>
+                        <a class="btn btn-light" href="mailto:vk.hack46@gmail.com">Email me</a>
+                    </div>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <i class="fa fa-map-marker"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Bengaluru, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:vk.hack46@gmail.com">vk.hack46@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/imvk46" target="_blank" rel="noreferrer">linkedin.com/in/imvk46</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/vk46" target="_blank" rel="noreferrer">github.com/vk46</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-shell">
+            <p>Thanks for visiting my site!</p>
+            <p>Made with passion | <span id="footer-year"></span></p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="script/index.js"></script>
+</body>
 </html>
