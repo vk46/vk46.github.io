@@ -3,8 +3,8 @@ Portfolio to showcase professional and personal information - [vk46.github.io](h
 
 ### Built With
 
-* [Bootstrap](https://getbootstrap.com/) - Front-End Framework
-* [jQuery](https://jquery.com/) - JavaScript Library
+* Semantic HTML and responsive CSS
+* Native browser APIs for theme preferences, section tracking, and scroll interactions (no JavaScript framework or runtime dependencies)
 * [GitHub Pages](https://pages.github.com/) - Hosted directly from GitHub repository
 
 ### Thanks To

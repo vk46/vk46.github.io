@@ -4,23 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Vinay Kumar's portfolio showcasing experience, services, and technical skills." />
-    <meta name="theme-color" content="#0b1020" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Vinay Kumar | Full-Stack Engineer</title>
     <link rel="icon" type="image/png" href="images/vk.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/style.css?v=modern-simple" />
+    <link rel="stylesheet" href="css/style.css?v=app-interactions" />
+    <script src="script/index.js" defer></script>
 </head>
 <body>
+    <div class="reading-progress" aria-hidden="true"><span></span></div>
     <header class="site-header">
         <div class="container nav-shell">
             <a href="#home" class="brand" aria-label="Vinay Kumar home">
                 <span>VK</span> Vinay Kumar
             </a>
 
-            <nav class="main-nav" aria-label="Main navigation">
+            <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
                 <a href="#skills">Skills</a>
@@ -28,7 +30,16 @@
                 <a href="#contact">Contact</a>
             </nav>
 
-            <a class="header-button" href="#contact">Hire Me</a>
+            <div class="nav-actions">
+                <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode" aria-pressed="false">
+                    <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 15.4A8.5 8.5 0 0 1 8.6 3.7 8.6 8.6 0 1 0 20.3 15.4Z" /></svg>
+                    <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" /></svg>
+                </button>
+                <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="main-navigation" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+                </button>
+                <a class="header-button" href="#contact">Hire Me</a>
+            </div>
         </div>
     </header>
 
@@ -73,7 +84,7 @@
 
                         <div class="mini-stats">
                             <div>
-                                <strong class="total_experience">8+</strong>
+                                <strong class="total_experience">9+</strong>
                                 <span>Years</span>
                             </div>
                             <div>
@@ -97,32 +108,31 @@
                     <h2>Hi, I’m Vinay Kumar</h2>
                 </div>
 
-                <div class="about-grid">
-                    <div class="about-photo-card">
-                        <img src="images/code3.jpeg" alt="Developer working on code" />
-                    </div>
-
+                <div class="about-layout">
                     <div class="about-copy">
                         <p>
-                            I am a Full-Stack Engineer based in Bengaluru, India. I graduated with a B.Tech from
-                            Jawaharlal Nehru Technological University, Hyderabad, in 2015 and have been building
-                            software professionally since then.
+                            <strong class="about-lead">I build reliable, scalable software that turns business needs into intuitive digital products.</strong>
                         </p>
                         <p>
-                            My work spans web application development, frontend architecture, backend services, and
-                            cloud-driven product delivery. I enjoy turning complex requirements into clear, scalable,
-                            and maintainable experiences for users and businesses.
+                            I’m a Full-Stack Engineer based in Bengaluru, India, with a B.Tech from Jawaharlal
+                            Nehru Technological University, Hyderabad. Since graduating in 2015, I’ve built
+                            experience delivering web applications across a range of teams and business domains.
                         </p>
                         <p>
-                            I’m especially interested in technology, reading, Sci‑Fi, travel, motor rides, and photography.
-                            My long-term goal is to grow as a professional Full-Stack Engineer and eventually move toward
-                            a Software Architect role.
+                            My work spans frontend architecture, backend services, and cloud-enabled delivery. I focus
+                            on creating maintainable systems and thoughtful user experiences that help products and
+                            businesses grow.
+                        </p>
+                        <p>
+                            Outside of work, I enjoy exploring technology, reading, science fiction, travel,
+                            motorcycling, and photography. I’m continually developing my engineering practice, with
+                            the long-term goal of growing into a Software Architect role.
                         </p>
 
                         <div class="stat-blocks">
                             <div class="stat-box">
-                                <strong>8+</strong>
-                                <span>Years of engineering</span>
+                                <strong class="total_experience">9+</strong>
+                                <span>Years of experience</span>
                             </div>
                             <div class="stat-box">
                                 <strong>100%</strong>
@@ -236,16 +246,15 @@
                     </div>
 
                     <div class="glass-panel">
-                        <h3>Hobbies &amp; interests</h3>
+                        <h3>Hobbies &amp; Interests</h3>
+                        <p class="hobbies-intro">Outside of work, I enjoy learning about technology, reading, exploring science fiction, travelling, motorcycling, and photography.</p>
                         <ul class="hobby-list">
-                            <li><i class="fa fa-code"></i> Coding</li>
+                            <li><i class="fa fa-laptop"></i> Technology</li>
                             <li><i class="fa fa-book"></i> Reading</li>
+                            <li><i class="fa fa-film"></i> Science fiction</li>
                             <li><i class="fa fa-plane"></i> Travel</li>
-                            <li><i class="fa fa-headphones"></i> Music</li>
-                            <li><i class="fa fa-search"></i> Research</li>
+                            <li><i class="fa fa-motorcycle"></i> Motorcycling</li>
                             <li><i class="fa fa-camera"></i> Photography</li>
-                            <li><i class="fa fa-motorcycle"></i> Bike rides</li>
-                            <li><i class="fa fa-rocket"></i> Space science</li>
                         </ul>
                     </div>
                 </div>
@@ -288,7 +297,7 @@
                         <div class="timeline-card">
                             <p class="time-range">Aug 2018 – Nov 2018</p>
                             <h3>UI Developer</h3>
-                            <p class="company">TeamLease Services Limited (Client: Hussmann), Bengaluru</p>
+                            <p class="company">TeamLease Services Limited, Bengaluru</p>
                         </div>
                     </article>
 
@@ -358,7 +367,8 @@
         </div>
     </footer>
 
-    <script src="js/jquery-3.5.0.min.js"></script>
-    <script src="script/index.js"></script>
+    <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 14 6-6 6 6" /></svg>
+    </button>
 </body>
 </html>
