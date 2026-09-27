@@ -292,6 +292,15 @@ h1, h2, h3, h4 {
 .site-footer { padding: 1.2rem 0; background: var(--ink); color: #cbd5e1; }
 .footer-shell { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .footer-shell p { margin: 0; color: inherit; font-size: .85rem; }
+.footer-message { display: inline-flex; align-items: center; gap: .45rem; }
+.footer-image {
+    display: block;
+    width: 15px;
+    height: 15px;
+    flex: 0 0 auto;
+    object-fit: contain;
+}
+.footer-year { color: #94a3b8; }
 
 .reading-progress {
     position: fixed;

@@ -45,11 +45,9 @@
             console.warn('Theme preference could not be read in this browser.', error);
         }
 
-        const systemPrefersDark = window.matchMedia &&
-            window.matchMedia('(prefers-color-scheme: dark)').matches;
         setTheme(savedTheme === 'dark' || savedTheme === 'light'
             ? savedTheme
-            : (systemPrefersDark ? 'dark' : 'light'), false);
+            : 'dark', false);
 
         themeToggle.addEventListener('click', function () {
             setTheme(document.body.dataset.theme === 'dark' ? 'light' : 'dark', true);
