@@ -463,7 +463,7 @@ h1, h2, h3, h4 {
 .site-footer { padding: 1.2rem 0; background: var(--ink); color: #cbd5e1; }
 .footer-shell { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .footer-shell p { margin: 0; color: inherit; font-size: .85rem; }
-.footer-message { display: inline-flex; align-items: center; gap: .45rem; }
+.footer-shell .footer-message { display: inline-flex; align-items: center; gap: .45rem; margin-left: auto; }
 .footer-image {
     display: block;
     width: 15px;
@@ -597,6 +597,7 @@ body[data-theme="dark"] .timeline-card { background: linear-gradient(110deg, #11
     .section { padding: 64px 0; }
     .stat-blocks { grid-template-columns: 1fr; }
     .footer-shell { justify-content: center; text-align: center; }
+    .footer-shell .footer-message { margin-left: 0; }
 }
 @media (max-width: 420px) {
     .technical-category-grid { grid-template-columns: 1fr; }
