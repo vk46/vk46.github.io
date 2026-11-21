@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/style.css?v=app-interactions" />
+    <link rel="stylesheet" href="css/style.css?v=skill-category-cards" />
     <script src="script/index.js" defer></script>
 </head>
 <body data-theme="dark">
@@ -196,57 +196,50 @@
                 <div class="section-heading centered">
                     <p class="eyebrow accent-dark">Skills</p>
                     <h2>Technical strengths and passions</h2>
+                    <p class="skills-intro">A blend of engineering depth, product thinking, and curiosity beyond the screen.</p>
                 </div>
 
                 <div class="skills-grid">
-                    <div class="glass-panel">
-                        <h3>Core technical skills</h3>
-                        <div class="skill-row">
-                            <div class="skill-labels">
-                                <span>Core Java</span>
-                                <span>90%</span>
+                    <div class="glass-panel skills-panel">
+                        <div class="panel-heading">
+                            <div>
+                                <span class="panel-kicker">Core system</span>
+                                <h3>Technical skills</h3>
                             </div>
-                            <div class="progress"><span style="width: 90%"></span></div>
+                            <span class="panel-status"><span></span> Active</span>
                         </div>
-                        <div class="skill-row">
-                            <div class="skill-labels">
-                                <span>HTML, CSS</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="progress"><span style="width: 90%"></span></div>
-                        </div>
-                        <div class="skill-row">
-                            <div class="skill-labels">
-                                <span>JavaScript, TypeScript</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="progress"><span style="width: 90%"></span></div>
-                        </div>
-                        <div class="skill-row">
-                            <div class="skill-labels">
-                                <span>Spring Boot &amp; Security</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="progress"><span style="width: 85%"></span></div>
-                        </div>
-                        <div class="skill-row">
-                            <div class="skill-labels">
-                                <span>Angular</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="progress"><span style="width: 80%"></span></div>
-                        </div>
-                        <div class="skill-row">
-                            <div class="skill-labels">
-                                <span>MySQL, MongoDB, Oracle</span>
-                                <span>75%</span>
-                            </div>
-                            <div class="progress"><span style="width: 75%"></span></div>
+                        <div class="technical-category-grid">
+                            <article class="technical-category">
+                                <div class="category-heading"><i class="fa fa-desktop"></i><h4>Frontend</h4></div>
+                                <p>HTML, CSS, JavaScript, TypeScript</p>
+                                <div class="category-tags"><span>Angular</span><span>Responsive UI</span></div>
+                            </article>
+                            <article class="technical-category">
+                                <div class="category-heading"><i class="fa fa-server"></i><h4>Backend</h4></div>
+                                <p>Core Java, Spring Boot, Security</p>
+                                <div class="category-tags"><span>REST APIs</span><span>Microservices</span></div>
+                            </article>
+                            <article class="technical-category">
+                                <div class="category-heading"><i class="fa fa-database"></i><h4>Database</h4></div>
+                                <p>MySQL, MongoDB, Oracle</p>
+                                <div class="category-tags"><span>SQL</span><span>NoSQL</span></div>
+                            </article>
+                            <article class="technical-category">
+                                <div class="category-heading"><i class="fa fa-cloud"></i><h4>Cloud &amp; DevOps</h4></div>
+                                <p>Cloud platforms and delivery automation</p>
+                                <div class="category-tags"><span>AWS</span><span>GCP</span><span>CI/CD</span><span>Git</span></div>
+                            </article>
                         </div>
                     </div>
 
-                    <div class="glass-panel">
-                        <h3>Hobbies &amp; Interests</h3>
+                    <div class="glass-panel interests-panel">
+                        <div class="panel-heading">
+                            <div>
+                                <span class="panel-kicker">Beyond code</span>
+                                <h3>Hobbies &amp; Interests</h3>
+                            </div>
+                            <span class="interest-count">06</span>
+                        </div>
                         <p class="hobbies-intro">Outside of work, I enjoy learning about technology, reading, exploring science fiction, travelling, motorcycling, and photography.</p>
                         <ul class="hobby-list">
                             <li><i class="fa fa-laptop"></i> Technology</li>
@@ -266,46 +259,72 @@
                 <div class="section-heading centered">
                     <p class="eyebrow accent-dark">Experience</p>
                     <h2>Career journey</h2>
+                    <p class="journey-intro">A timeline of the teams and roles that have shaped my work.</p>
                 </div>
 
-                <div class="timeline">
+                <div class="journey-meta" aria-label="Career timeline summary">
+                    <span class="journey-label"><span class="journey-pulse"></span> Professional timeline</span>
+                    <span class="journey-duration"><span class="total_experience">9+</span> years in software engineering</span>
+                </div>
+
+                <div class="timeline" aria-label="Career history">
                     <article class="timeline-item">
                         <div class="timeline-card">
-                            <p class="time-range">Apr 2022 – Present</p>
-                            <h3>Senior Software Engineer</h3>
-                            <p class="company">Ascendion, Bengaluru</p>
+                            <div class="timeline-date">
+                                <p class="time-range">Apr 2022 – Present</p>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Senior Software Engineer</h3>
+                                <p class="company">Ascendion, Bengaluru <span class="role-status">Current role</span></p>
+                            </div>
                         </div>
                     </article>
 
                     <article class="timeline-item">
                         <div class="timeline-card">
-                            <p class="time-range">Jul 2020 – Mar 2022</p>
-                            <h3>Senior Full-Stack Engineer</h3>
-                            <p class="company">Dreammithra Pvt. Ltd., Bengaluru</p>
+                            <div class="timeline-date">
+                                <p class="time-range">Jul 2020 – Mar 2022</p>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Senior Full-Stack Engineer</h3>
+                                <p class="company">Dreammithra Pvt. Ltd., Bengaluru</p>
+                            </div>
                         </div>
                     </article>
 
                     <article class="timeline-item">
                         <div class="timeline-card">
-                            <p class="time-range">Feb 2019 – May 2020</p>
-                            <h3>Senior Software Engineer</h3>
-                            <p class="company">iTroSys Pvt. Ltd., Bengaluru</p>
+                            <div class="timeline-date">
+                                <p class="time-range">Feb 2019 – May 2020</p>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Senior Software Engineer</h3>
+                                <p class="company">iTroSys Pvt. Ltd., Bengaluru</p>
+                            </div>
                         </div>
                     </article>
 
                     <article class="timeline-item">
                         <div class="timeline-card">
-                            <p class="time-range">Aug 2018 – Nov 2018</p>
-                            <h3>UI Developer</h3>
-                            <p class="company">TeamLease Services Limited, Bengaluru</p>
+                            <div class="timeline-date">
+                                <p class="time-range">Aug 2018 – Nov 2018</p>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>UI Developer</h3>
+                                <p class="company">TeamLease Services Limited, Bengaluru</p>
+                            </div>
                         </div>
                     </article>
 
                     <article class="timeline-item">
                         <div class="timeline-card">
-                            <p class="time-range">Dec 2016 – Aug 2018</p>
-                            <h3>Software Engineer</h3>
-                            <p class="company">Vistara IT Solutions Pvt. Ltd., Bengaluru</p>
+                            <div class="timeline-date">
+                                <p class="time-range">Dec 2016 – Aug 2018</p>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Software Engineer</h3>
+                                <p class="company">Vistara IT Solutions Pvt. Ltd., Bengaluru</p>
+                            </div>
                         </div>
                     </article>
                 </div>
@@ -362,10 +381,6 @@
 
     <footer class="site-footer">
         <div class="container footer-shell">
-            <p class="footer-message">
-                <span>Thanks for visiting</span>
-                <img class="footer-image" src="images/thank-you.png" alt="" />
-            </p>
             <p class="footer-message">
                 <span>Made with passion</span>
                 <img class="footer-image" src="images/heart-992_32.png" alt="" />
